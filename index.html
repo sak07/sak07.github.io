@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi Manoj Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header
+      style="
+        background-color: #1c3e59;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <div
+        class="container header-content"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          max-width: 1500px;
+          margin: auto;
+        "
+      >
+        <div class="profile-photo" style="flex: 0 0 150px; margin-right: 20px">
+          <img
+            src="images/myphoto.jpeg"
+            alt="Sakshi Manoj"
+            style="width: 100%; border-radius: 50%"
+          />
+        </div>
+        <div class="intro" style="flex: 1; text-align: left">
+          <h1
+            style="
+              color: #333;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 2.5em;
+              font-weight: bold;
+              margin-bottom: 10px;
+            "
+          >
+            Hi, I'm <span style="color: #007bff">Sakshi Manoj</span>
+          </h1>
+          <p
+            style="
+              font-size: 20px;
+              color: #555;
+              font-weight: bold;
+              margin-bottom: 15px;
+            "
+          >
+            Software Engineer | Full-Stack Developer
+          </p>
+          <p style="font-size: 16px; color: #666; margin-bottom: 15px">
+            I am a results-driven Software Engineer with three years of
+            experience in full-stack development, specializing in Java, Spring
+            Boot, and RESTful services. I excel at creating robust and scalable
+            applications, ensuring high-quality software solutions that meet
+            client needs.
+          </p>
+          <div class="contact-info" style="font-size: 16px; color: #666">
+            <p>
+              Karama, Dubai |
+              <a
+                href="mailto:sakshimanoj1516@gmail.com"
+                style="color: #007bff; text-decoration: none"
+                >sakshimanoj1516@gmail.com</a
+              >
+              | +971566945284
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/sakshi-manoj"
+                target="_blank"
+                style="color: #007bff; text-decoration: none"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <p>JavaScript</p>
+          <p>Java</p>
+          <p>Vue.js</p>
+          <p>Angular</p>
+          <p>R</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Spring Boot</p>
+          <p>SQL</p>
+          <p>MySQL</p>
+          <p>MongoDB</p>
+          <p>PL/SQL</p>
+          <p>RESTful APIs</p>
+          <p>PowerBI</p>
+          <p>Tableau</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+      <h2>Professional Experience</h2>
+
+      <div class="experience-content">
+        <div class="experience-item">
+          <h3>Software Engineer, Gadgeon Smart Systems Pvt. Ltd.</h3>
+          <h4>(July 2021 - June 2024)</h4>
+          <p>
+            As a Software Engineer at Gadgeon, I led end-to-end development,
+            from initial design to deployment, ensuring a seamless integration
+            of cross-functional systems. Through my expertise in frontend
+            (Vue.js, Angular) and backend technologies (Spring Boot), I was able
+            to optimize application performance, reduce development time by 20%,
+            and ensure smooth deployments with fewer post-production issues.
+          </p>
+          <p>
+            In addition to my technical contributions, I also took ownership of
+            coordinating with stakeholders, developers, and QA teams to maintain
+            high standards of delivery, meeting tight deadlines while increasing
+            project efficiency by 15%.
+          </p>
+        </div>
+
+        <!-- <div class="experience-item">
+          <h3>Java Developer Intern, XYZ Solutions</h3>
+          <h4>(June 2020 - May 2021)</h4>
+          <p>
+            During my internship at XYZ Solutions, I contributed to backend
+            development tasks, creating robust APIs using Java and Spring Boot.
+            I was involved in the Data Lake API project, optimizing partner
+            onboarding processes and ensuring 100% unit test coverage for API
+            reliability. My work helped improve data flow management across
+            multiple services and increased the operational efficiency of
+            backend systems.
+          </p>
+        </div> -->
+      </div>
+
+      <!-- <a href="resume/Sakshi_Manoj_Resume.pdf" download class="download-cv-btn"
+        >Download CV</a
+      > -->
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-gridc">
+          <!-- Project 1: Solution Configurator for ICT Service Provider -->
+          <div class="project-item">
+            <h3>Solution Configurator for ICT Service Provider</h3>
+            <p>
+              The Solution Configurator portal captures customer requirements in
+              response to inquiries on their platform, facilitating the
+              implementation and management of Microsoft modern workplace
+              solutions.
+            </p>
+            <button
+              class="details-button"
+              onclick="toggleDetails('ict-project', this)"
+            >
+              👁️ View Details
+            </button>
+
+            <!-- Hidden detailed section -->
+            <div
+              id="ict-project"
+              class="project-details"
+              style="
+                display: none;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                margin-bottom: 20px;
+              "
+            >
+              <!-- Website Link -->
+              <a
+                href="https://www.smarter365.nl/"
+                target="_blank"
+                style="
+                  text-decoration: none;
+                  color: #1a73e8;
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+              >
+                Visit Website <span style="margin-left: 5px">&#8599;</span>
+              </a>
+
+              <!-- Description Section -->
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Description
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                This portal helps manage customer requirements by integrating
+                Microsoft workplace solutions, streamlining the customer
+                engagement process.
+              </p>
+
+              <!-- Technologies Section -->
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Technologies
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Vue.js, JavaScript, CSS, Jest
+              </p>
+
+              <!-- Contribution Section -->
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Contribution
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Developed responsive frontend components using Vue.js and
+                Vuetify, leading to a 20% performance improvement. Implemented
+                internationalization using i18next for multilingual support.
+                Conducted thorough testing with Jest, achieving 95% code
+                coverage.
+              </p>
+
+              <!-- Image Gallery Section -->
+              <div
+                class="image-container"
+                style="display: flex; gap: 10px; margin-top: 20px"
+              >
+                <img
+                  src="images/smarter365/smarter365_1.png"
+                  alt="ICT Project Image 1"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                />
+                <img
+                  src="images/smarter365/smarter365_2.png"
+                  alt="ICT Project Image 2"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                />
+              </div>
+
+              <!-- Watch Demo Link -->
+              <p style="margin-top: 20px">
+                <a
+                  href="https://www.loom.com/share/1bb8e9b2f5744138b309e199f25a424e?sid=341b1269-9a27-400c-8fcc-d83e77082551"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #1a73e8;
+                    font-weight: bold;
+                    font-size: 18px;
+                  "
+                  >Watch Demo <span style="margin-left: 5px">&#9654;</span>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 2: Head-mounted Wearable Application - IoT -->
+          <div class="project-item">
+            <h3>Head-mounted Wearable Application - IoT</h3>
+            <p>
+              Our customer wanted to develop a platform with a backend
+              application server, progressive web application, and apps that run
+              on RealWear headgear to handle day-to-day activities of
+              maintenance professionals.
+            </p>
+            <button
+              class="details-button"
+              onclick="toggleDetails('iot-project', this)"
+            >
+              👁️ View Details
+            </button>
+
+            <!-- Hidden detailed section -->
+            <div
+              id="iot-project"
+              class="project-details"
+              style="
+                display: none;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                margin-top: 20px;
+              "
+            >
+              <a
+                href="https://www.klattworks.com/mx-accelerator/"
+                target="_blank"
+                style="
+                  text-decoration: none;
+                  color: #1a73e8;
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+                >Visit Website <span style="margin-left: 5px">&#8599;</span></a
+              >
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Description
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                This IoT app enhances productivity for maintenance professionals
+                using RealWear headgear, integrating backend services with a
+                Progressive Web Application.
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Technologies
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Angular, Spring Boot, Java, Bootstrap
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Contribution
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Developed the PWA frontend using Angular and Bootstrap,
+                increasing user interaction by 25%. Implemented RESTful backend
+                services using Spring Boot. Applied Spring Security to ensure
+                secure user authentication.
+              </p>
+
+              <div
+                class="image-container"
+                style="display: flex; gap: 10px; margin-top: 20px"
+              >
+                <img
+                  src="images/klattworks/klattworks_1.png"
+                  alt="IoT Project 1"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                  onmouseover="this.style.transform='scale(1.05)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+                <img
+                  src="images/klattworks/klattworks_2.png"
+                  alt="IoT Project 2"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                  onmouseover="this.style.transform='scale(1.05)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+
+              <p style="margin-top: 20px">
+                This head-mounted wearable app, developed using Angular for the
+                frontend and Spring Boot for the backend, led to a 25% increase
+                in user engagement.
+                <a
+                  href="https://www.loom.com/share/83bcdfde9b7a43879cee46f1d8b4b3cc?sid=40277a1e-0fa5-4789-8aba-e1bd13d213cc"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #1a73e8;
+                    font-weight: bold;
+                    font-size: 18px;
+                  "
+                  >Watch demo <span style="margin-left: 5px">&#9654;</span></a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 3: B2B Retail Platform -->
+          <div class="project-item">
+            <h3>B2B Retail Platform</h3>
+            <p>
+              A comprehensive shop management system integrating key business
+              functionalities, including Point of Sale (POS), Kassa, Enterprise
+              Resource Planning (ERP), and webshop modules, designed to
+              streamline operations, optimize inventory management, and enhance
+              customer engagement.
+            </p>
+            <button
+              class="details-button"
+              onclick="toggleDetails('b2b-project', this)"
+            >
+              👁️ View Details
+            </button>
+
+            <!-- Hidden detailed section -->
+            <div
+              id="b2b-project"
+              class="project-details"
+              style="
+                display: none;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                margin-top: 20px;
+              "
+            >
+              <a
+                href="https://www.noahretail.com/"
+                target="_blank"
+                style="
+                  text-decoration: none;
+                  color: #1a73e8;
+                  font-weight: bold;
+                  font-size: 18px;
+                "
+                >Visit Website <span style="margin-left: 5px">&#8599;</span></a
+              ><br /><br />
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Description
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                A robust B2B platform that integrates POS, ERP, and webshop
+                modules to streamline retail operations and enhance customer
+                experience.
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Technologies
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Angular, RESTful APIs, Java
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Contribution
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Created intuitive frontend interfaces with Angular, improving
+                user engagement by 30%. Integrated backend APIs for smooth data
+                handling between ERP and POS systems. Ensured seamless user
+                experiences across modules by implementing best practices in
+                frontend design.
+              </p>
+
+              <div
+                class="image-container"
+                style="display: flex; gap: 10px; margin-top: 20px"
+              >
+                <img
+                  src="images/noah/noah_1.png"
+                  alt="B2B Platform 1"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                  onmouseover="this.style.transform='scale(1.05)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+                <img
+                  src="images/noah/noah_2.png"
+                  alt="B2B Platform 2"
+                  style="
+                    width: 48%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: transform 0.3s ease;
+                  "
+                  class="hover-image"
+                  onmouseover="this.style.transform='scale(1.05)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+
+              <p style="margin-top: 20px">
+                The B2B retail platform enhanced user interactions using Angular
+                for the frontend and implemented RESTful APIs for seamless
+                backend integration.
+                <a
+                  href="https://www.loom.com/share/43bb94884c2f4f9fad24761a1a4b83c2?sid=c99463e5-be14-4b59-b4c4-4280d447c954"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #1a73e8;
+                    font-weight: bold;
+                    font-size: 18px;
+                  "
+                  >Watch demo <span style="margin-left: 5px">&#9654;</span></a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 4: Data Lake APIs for Electric Mobility Customer -->
+          <div class="project-item">
+            <h3>Data Lake APIs for Electric Mobility</h3>
+            <p>
+              Developed robust APIs using Spring Boot and Azure, improving
+              partner onboarding and streamlining data integration processes.
+            </p>
+            <button
+              class="details-button"
+              onclick="toggleDetails('data-lake-project', this)"
+            >
+              👁️ View Details
+            </button>
+
+            <!-- Hidden detailed section -->
+            <div
+              id="data-lake-project"
+              class="project-details"
+              style="
+                display: none;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                margin-top: 20px;
+              "
+            >
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Project Overview
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Built scalable APIs that enhanced data management and simplified
+                the onboarding of new partners, reducing manual intervention.
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Technologies Used
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Spring Boot, Java, Azure
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Key Contributions
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                - Designed and implemented RESTful APIs to improve data
+                accessibility.<br />
+                - Facilitated smoother partner integrations by enhancing the
+                data pipeline.<br />
+                - Used Azure to ensure secure and scalable data storage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 5: Oracle Integration Cloud -->
+          <div class="project-item">
+            <h3>Oracle Integration Cloud Solutions</h3>
+            <p>
+              Developed integration solutions for retail clients, boosting
+              efficiency and automating workflows using Oracle Integration
+              Cloud, VBCS, PCS, and PL/SQL, resulting in a 30% reduction in data
+              silos.
+            </p>
+            <button
+              class="details-button"
+              onclick="toggleDetails('oracle-project', this)"
+            >
+              👁️ View Details
+            </button>
+
+            <!-- Hidden detailed section -->
+            <div
+              id="oracle-project"
+              class="project-details"
+              style="
+                display: none;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                margin-top: 20px;
+              "
+            >
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Project Overview
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Delivered seamless system integration by automating workflows
+                and ensuring smooth data flow between platforms, reducing manual
+                interventions and operational bottlenecks.
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Technologies Used
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                Oracle Integration Cloud, Oracle VBCS, Oracle PCS, PL/SQL,
+                RESTful APIs
+              </p>
+
+              <h4 style="margin-top: 20px; color: #333; font-size: 22px">
+                Key Contributions
+              </h4>
+              <p style="color: #666; line-height: 1.6">
+                - Improved integration processes, cutting data silos by 30%.<br />
+                - Built custom APIs for seamless system communication.<br />
+                - Automated workflows with PCS and enhanced application
+                functionality using VBCS.<br />
+                - Optimized database operations with PL/SQL for faster, more
+                accurate data handling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript to toggle the details with smooth animation -->
+    <script>
+      function toggleDetails(projectId, button) {
+        var details = document.getElementById(projectId);
+        if (details.style.display === "none" || details.style.display === "") {
+          details.style.display = "block";
+          button.innerHTML = "👁️ Hide Details";
+          details.style.opacity = 0;
+          setTimeout(() => {
+            details.style.opacity = 1;
+          }, 100); // smooth fade-in
+        } else {
+          details.style.opacity = 0;
+          setTimeout(() => {
+            details.style.display = "none";
+            button.innerHTML = "👁️ View Details";
+          }, 300); // delay to allow fade-out
+        }
+      }
+    </script>
+
+    <!-- Add some interactive styling -->
+    <style>
+      .project-item {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+        background-color: #f9f9f9;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+      .project-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .details-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .details-button:hover {
+        background-color: #0056b3;
+      }
+      .project-details {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f0f8ff;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .project-details img {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .eye-icon {
+        cursor: pointer;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+      .project-details {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+      .project-details img {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <!-- Education Section -->
+    <!-- Education and Certifications Section -->
+    <section
+      id="education-certifications"
+      style="background-color: #f9f9f9; padding: 40px 10px; border-radius: 8px"
+    >
+      <div
+        class="container"
+        style="
+          max-width: 1200px;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        "
+      >
+        <!-- Education -->
+        <div style="flex: 1; margin-right: 20px; min-width: 280px">
+          <h2
+            style="
+              text-align: center;
+              color: #333;
+              font-family: 'Arial', sans-serif;
+            "
+          >
+            Education
+          </h2>
+          <div style="text-align: center; margin-top: 20px">
+            <p
+              style="
+                font-size: 18px;
+                color: #666;
+                font-family: 'Arial', sans-serif;
+              "
+            >
+              Bachelor of Technology in Computer Science and Engineering,<br />
+              APJ Abdul Kalam Technological University, Kerala, India
+            </p>
+            <p style="font-size: 20px; color: #333; font-weight: bold">
+              CGPA: 9.76/10
+            </p>
+            <div style="margin-top: 20px">
+              <iframe
+                src="documents/Degree_Certificate.pdf"
+                width="250"
+                height="300"
+                style="
+                  border: none;
+                  border-radius: 8px;
+                  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+                  transition: transform 0.3s ease;
+                "
+                onmouseover="this.style.transform='scale(1.05)'"
+                onmouseout="this.style.transform='scale(1)'"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div style="flex: 1; min-width: 280px">
+          <h2
+            style="
+              text-align: center;
+              color: #333;
+              font-family: 'Arial', sans-serif;
+            "
+          >
+            Certifications
+          </h2>
+          <ul
+            style="
+              list-style-type: none;
+              padding: 0;
+              text-align: center;
+              margin-top: 20px;
+            "
+          >
+            <li
+              style="
+                font-size: 18px;
+                color: #666;
+                font-family: 'Arial', sans-serif;
+                margin-bottom: 10px;
+              "
+            >
+              AWS Certified Cloud Practitioner
+            </li>
+            <li
+              style="
+                font-size: 18px;
+                color: #666;
+                font-family: 'Arial', sans-serif;
+                margin-bottom: 10px;
+              "
+            >
+              Google Data Analytics Professional
+            </li>
+          </ul>
+          <div style="margin-top: 20px">
+            <iframe
+              src="documents/Google_DI_Professional.pdf"
+              width="250"
+              height="300"
+              style="
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease;
+              "
+              onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Certificates Section -->
+    <section
+      id="experience-certificates"
+      style="
+        background-color: #ffffff;
+        padding: 40px 10px;
+        border-radius: 8px;
+        margin-top: 20px;
+      "
+    >
+      <div class="container" style="max-width: 800px; margin: auto">
+        <h2
+          style="
+            text-align: center;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+          "
+        >
+          Experience Certificate
+        </h2>
+        <div style="margin-top: 20px; text-align: center">
+          <iframe
+            src="documents/Exp letter- Sakshi Manoj.pdf"
+            width="280"
+            height="350"
+            style="
+              border: none;
+              border-radius: 8px;
+              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+              transition: transform 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Sakshi Manoj. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
